@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your Magic Carpet | Duolingo Language Learning Adventure</title>
+    <meta name="description" content="Create your unique Magic Carpet design reflecting your language learning journey. Unlock premium patterns with Super Duolingo.">
+    <meta name="keywords" content="customize magic carpet, Duolingo premium features, language learning designs, personalized learning journey, interactive language tool">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Design Your Magic Carpet | Duolingo">
+    <meta property="og:description" content="Create your unique Magic Carpet design reflecting your language learning journey.">
+    <meta property="og:image" content="https://yourdomain.com/images/6.png">
+    <meta property="og:url" content="https://yourdomain.com/customizer.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Design Your Magic Carpet | Duolingo">
+    <meta name="twitter:description" content="Create your unique Magic Carpet design reflecting your language learning journey.">
+    <meta name="twitter:image" content="https://yourdomain.com/images/6.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourdomain.com/customizer.html">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/customizer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/1.png" alt="Duolingo Logo" width="150" height="40">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="customizer.html" class="active">Magic Carpet</a></li>
+                        <li><a href="parents-faq.html">Parents FAQ</a></li>
+                        <li><a href="signup.html" class="cta-button small">Start Free Trial</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Customizer Hero -->
+    <section class="customizer-hero">
+        <div class="container">
+            <h1 class="section-title">Design Your Magic Carpet</h1>
+            <p class="section-subtitle">Customize your child's Magic Carpet to reflect their unique language learning journey</p>
+        </div>
+    </section>
+
+    <!-- Customizer Main Section -->
+    <section class="customizer-main">
+        <div class="container">
+            <div class="customizer-grid">
+                <!-- Carpet Preview Panel -->
+                <div class="carpet-preview-panel">
+                    <div class="carpet-preview-container">
+                        <div id="carpet-preview" class="carpet-preview">
+                            <!-- The carpet will be rendered here by JS -->
+                            <div class="carpet-base"></div>
+                            <div class="carpet-overlay"></div>
+                            <div class="carpet-mastered">
+                                <div class="mastered-area mastered-area-1"></div>
+                                <div class="mastered-area mastered-area-2"></div>
+                                <div class="mastered-area mastered-area-3"></div>
+                            </div>
+                            <div class="carpet-character"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="carpet-stats">
+                        <div class="carpet-stat">
+                            <div class="stat-value">12</div>
+                            <div class="stat-label">Days Streak</div>
+                        </div>
+                        <div class="carpet-stat">
+                            <div class="stat-value">324</div>
+                            <div class="stat-label">Gems Earned</div>
+                        </div>
+                        <div class="carpet-stat">
+                            <div class="stat-value">Silver</div>
+                            <div class="stat-label">Current League</div>
+                        </div>
+                    </div>
+                    
+                    <div class="carpet-actions">
+                        <button id="download-carpet" class="secondary-button">
+                            <i class="icon-download"></i> Download Your Carpet
+                        </button>
+                        <button id="share-carpet" class="secondary-button">
+                            <i class="icon-share"></i> Share on Social
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Customization Options Panel -->
+                <div class="customization-panel">
+                    <div class="option-section">
+                        <h3>Select a Pattern</h3>
+                        <div class="pattern-options">
+                            <button class="pattern-option pattern-geometric active" data-pattern="geometric">
+                                <span class="pattern-label">Geometric</span>
+                            </button>
+                            <button class="pattern-option pattern-floral" data-pattern="floral">
+                                <span class="pattern-label">Floral</span>
+                            </button>
+                            <button class="pattern-option pattern-animals" data-pattern="animals">
+                                <span class="pattern-label">Animals</span>
+                            </button>
+                            <button class="pattern-option pattern-cultural" data-pattern="cultural">
+                                <span class="pattern-label">Cultural</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="option-section">
+                        <h3>Choose a Color</h3>
+                        <div class="color-options">
+                            <button class="color-option color-blue active" data-color="#1cb0f6"></button>
+                            <button class="color-option color-purple" data-color="#ce82ff"></button>
+                            <button class="color-option color-gold" data-color="#f0b90b"></button>
+                            <button class="color-option color-green" data-color="#58cc02"></button>
+                            <button class="color-option color-indigo" data-color="#5c4dff"></button>
+                            <button class="color-option color-orange" data-color="#ff9600"></button>
+                        </div>
+                    </div>
+                    
+                    <!-- Premium Patterns Section -->
+                    <div class="premium-section">
+                        <div class="premium-header">
+                            <h3><i class="icon-crown"></i> Premium Patterns</h3>
+                            <p>Unlock exclusive patterns and designs with Super Duolingo</p>
+                        </div>
+                        
+                        <div class="premium-patterns">
+                            <div class="premium-pattern premium-pattern-1">
+                                <div class="lock-icon">🔒</div>
+                            </div>
+                            <div class="premium-pattern premium-pattern-2">
+                                <div class="lock-icon">🔒</div>
+                            </div>
+                            <div class="premium-pattern premium-pattern-3">
+                                <div class="lock-icon">🔒</div>
+                            </div>
+                        </div>
+                        
+                        <a href="signup.html" class="cta-button">Unlock Premium Designs</a>
+                    </div>
+                    
+                    <!-- Learning Style Section -->
+                    <div class="option-section">
+                        <h3>Learning Style</h3>
+                        <p>Different learning styles create unique carpet features</p>
+                        
+                        <div class="learning-style-options">
+                            <button class="style-option style-visual active" data-style="visual">
+                                <img src="images/8.png" alt="Visual learner">
+                                <span>Visual</span>
+                            </button>
+                            <button class="style-option style-auditory" data-style="auditory">
+                                <img src="images/10.png" alt="Auditory learner">
+                                <span>Auditory</span>
+                            </button>
+                            <button class="style-option style-kinesthetic" data-style="kinesthetic">
+                                <img src="images/12.png" alt="Kinesthetic learner">
+                                <span>Kinesthetic</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Free vs Premium Comparison -->
+            <div class="comparison-section">
+                <h2 class="section-title">Free vs Premium Magic Carpet</h2>
+                
+                <div class="comparison-grid">
+                    <div class="comparison-card free">
+                        <div class="comparison-header">
+                            <h3>Free Magic Carpet</h3>
+                            <img src="images/6.png" alt="Free Magic Carpet illustration" class="comparison-image">
+                        </div>
+                        <ul class="comparison-features">
+                            <li>Basic carpet patterns (4)</li>
+                            <li>Standard color options (6)</li>
+                            <li>Visual learning style only</li>
+                            <li>Bronze League heights</li>
+                            <li>Limited streaks visualization</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="comparison-card premium">
+                        <div class="comparison-header">
+                            <h3>Premium Magic Carpet</h3>
+                            <img src="images/7.png" alt="Premium Magic Carpet illustration" class="comparison-image">
+                        </div>
+                        <ul class="comparison-features">
+                            <li>All carpet patterns (15+)</li>
+                            <li>Extended color palette (20+)</li>
+                            <li>All learning style visualizations</li>
+                            <li>Diamond League heights & destinations</li>
+                            <li>Enhanced streaks and gem visualization</li>
+                            <li>Downloadable high-resolution image</li>
+                        </ul>
+                        <a href="signup.html" class="cta-button">Start Free Trial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/1.png" alt="Duolingo Logo" class="footer-logo">
+                    <p>Making language learning fun, effective, and completely free.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="icon-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Learn</h3>
+                    <ul>
+                        <li><a href="#">Spanish</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Japanese</a></li>
+                        <li><a href="#">All Languages</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Duolingo, Inc. All rights reserved.</p>
+                <button id="privacy-settings" class="privacy-settings-btn">Privacy Settings</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GDPR Cookie Consent Banner -->
+    <div id="gdpr-banner" class="gdpr-banner">
+        <div class="gdpr-content">
+            <h3>We Value Your Privacy</h3>
+            <p>We use cookies to enhance your child's learning experience, remember preferences, and analyze how our site is used. We require parental consent as required by data protection regulations.</p>
+        </div>
+        <div class="gdpr-buttons">
+            <button id="accept-all-cookies" class="gdpr-btn gdpr-accept">Accept All</button>
+            <button id="essential-only-cookies" class="gdpr-btn gdpr-essential">Essential Only</button>
+            <button id="cookie-settings" class="gdpr-btn gdpr-settings">Cookie Settings</button>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/customizer.js"></script>
+    <script src="js/gdpr.js"></script>
+</body>
+</html>
